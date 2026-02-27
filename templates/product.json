@@ -58,6 +58,12 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "liquid_CBY4nU": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"free-offer-box\">\n  <strong>Mallette de protection incluse</strong>\n  <span>Offre valable aujourd’hui uniquement</span>\n</div>\n\n<style>\n.free-offer-box {\n  margin: 16px auto 18px auto;\n  padding: 12px 16px;\n  text-align: center;\n  max-width: 380px;\n  border: 1px solid #e8e8e8;\n  background: #f7f7f7;\n  border-radius: 8px;\n}\n\n.free-offer-box strong {\n  display: block;\n  font-size: 15px;\n  font-weight: 600;\n  color: #000;\n}\n\n.free-offer-box span {\n  display: block;\n  font-size: 13px;\n  color: #666;\n  margin-top: 4px;\n}\n</style>"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -72,7 +78,7 @@
         "liquid_FLzBGz": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"payment-icons-wrapper\">\n  <ul class=\"payment-icons\">\n    {% for type in shop.enabled_payment_types %}\n      <li class=\"payment-icon\">\n        {{ type | payment_type_svg_tag }}\n      </li>\n    {% endfor %}\n  </ul>\n</div>\n\n<style>\n.payment-icons-wrapper {\n  margin-top: 20px;\n}\n\n.payment-icons {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 12px;\n  padding: 0;\n  margin: 0;\n  list-style: none;\n  align-items: center;\n}\n\n.payment-icon svg {\n  height: 26px;\n  width: auto;\n}\n</style>"
+            "liquid": "<div class=\"payment-icons-wrapper\">\n  <ul class=\"payment-icons\">\n    {% for type in shop.enabled_payment_types %}\n      <li class=\"payment-icon\">\n        {{ type | payment_type_svg_tag }}\n      </li>\n    {% endfor %}\n  </ul>\n</div>\n\n<style>\n.payment-icons-wrapper {\n  margin-top: 15px;\n}\n\n.payment-icons {\n  display: flex;\n  justify-content: center;   /* centre horizontalement */\n  align-items: center;       /* centre verticalement */\n  flex-wrap: wrap;\n  gap: 10px;\n  padding: 0;\n  margin: 0;\n  list-style: none;\n}\n\n.payment-icon {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background: #f5f5f7;\n  padding: 6px 12px;\n  border-radius: 6px;\n  height: 38px;\n}\n\n.payment-icon svg {\n  height: 22px;\n  width: auto;\n}\n</style>"
           }
         }
       },
@@ -85,6 +91,7 @@
         "payment_terms",
         "variant_picker",
         "quantity_selector",
+        "liquid_CBY4nU",
         "buy_buttons",
         "liquid_FLzBGz"
       ],
