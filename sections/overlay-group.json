@@ -24,6 +24,16 @@
         "subtext": "Describe what your customers will receive when subscribing to your newsletter."
       }
     },
+    "search-drawer": {
+      "type": "search-drawer",
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "show_article_category": false,
+        "search_menu": "",
+        "search_menu_show_title": false
+      }
+    },
     "privacy-banner": {
       "type": "privacy-banner",
       "disabled": true,
@@ -44,22 +54,12 @@
         "product_card_background": "#f2f2f2",
         "product_card_text_color": ""
       }
-    },
-    "search-drawer": {
-      "type": "search-drawer",
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "show_article_category": true,
-        "search_menu": "",
-        "search_menu_show_title": true
-      }
     }
   },
   "order": [
     "newsletter-popup",
+    "search-drawer",
     "privacy-banner",
-    "cart-drawer",
-    "search-drawer"
+    "cart-drawer"
   ]
 }
