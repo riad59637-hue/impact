@@ -68,6 +68,12 @@
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
+        },
+        "liquid_FLzBGz": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"payment-icons-wrapper\">\n  <ul class=\"payment-icons\">\n    {% for type in shop.enabled_payment_types %}\n      <li class=\"payment-icon\">\n        {{ type | payment_type_svg_tag }}\n      </li>\n    {% endfor %}\n  </ul>\n</div>\n\n<style>\n.payment-icons-wrapper {\n  margin-top: 20px;\n}\n\n.payment-icons {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 12px;\n  padding: 0;\n  margin: 0;\n  list-style: none;\n  align-items: center;\n}\n\n.payment-icon svg {\n  height: 26px;\n  width: auto;\n}\n</style>"
+          }
         }
       },
       "block_order": [
@@ -79,7 +85,8 @@
         "payment_terms",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons"
+        "buy_buttons",
+        "liquid_FLzBGz"
       ],
       "settings": {
         "full_width": true,
