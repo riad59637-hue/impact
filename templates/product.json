@@ -12,9 +12,11 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "vendor",
-          "settings": {}
+        "liquid_E6r3mU": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"review-badge-fix\">\n  <div class=\"stars\">★★★★★</div>\n  <div class=\"review-text\">\n    <span class=\"rating\">4,8</span>\n    <span class=\"separator\">–</span>\n    <span class=\"review-count\"> 362 avis vérifiés</span>\n  </div>\n</div>\n\n<style>\n.review-badge-fix {\n  display: flex;\n  align-items: center;\n  gap: 12px;\n  flex-wrap: nowrap;\n}\n\n.review-badge-fix .stars {\n  color: #f5b301;\n  font-size: 18px;\n  letter-spacing: 2px;\n  line-height: 1;\n}\n\n.review-badge-fix .review-text {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n  white-space: nowrap; /* empêche le retour à la ligne */\n  font-size: 17px;\n}\n\n.review-badge-fix .rating {\n  font-weight: 600;\n}\n\n.review-badge-fix .review-count {\n  font-size: 18px;\n  font-weight: 600;\n}\n</style>"
+          }
         },
         "title": {
           "type": "title",
@@ -79,7 +81,7 @@
         }
       },
       "block_order": [
-        "vendor",
+        "liquid_E6r3mU",
         "title",
         "badges",
         "price",
