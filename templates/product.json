@@ -147,23 +147,67 @@
         "product_card_text_color": ""
       }
     },
-    "custom_liquid_JPKCnM": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
+    "multiple_images_with_text_Wxxt96": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_6tUJ4K": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Icone_Anti-Cameltoe_en_francais.png",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "",
+            "content": "",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_4QFyWE": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Icone_Anti-Transpiration_en_francais.png",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "",
+            "content": "",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_HmBjY6": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Icone_Invisible_en_francais.png",
+            "image_rotation_degrees": 1.5,
+            "subheading": "",
+            "title": "",
+            "content": "",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_6tUJ4K",
+        "item_4QFyWE",
+        "item_HmBjY6"
+      ],
+      "name": "Multiple images with text",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div style=\"display:flex;justify-content:center;align-items:flex-start;gap:32px;padding:28px 16px;flex-wrap:wrap;\">\n\n  <div style=\"display:flex;flex-direction:column;align-items:center;gap:12px;width:90px;\">\n    <img src=\"{{ 'Icône_Anti-Cameltoe_en_français.png' | asset_url }}\" width=\"56\" height=\"56\" alt=\"Anti-cameltoe\" style=\"object-fit:contain;\">\n    <span style=\"font-size:12px;color:#3d3d3d;text-align:center;font-family:sans-serif;line-height:1.4;\">Anti-cameltoe</span>\n  </div>\n\n  <div style=\"display:flex;flex-direction:column;align-items:center;gap:12px;width:90px;\">\n    <img src=\"{{ 'Icône_Anti-Transpiration_en_français.png' | asset_url }}\" width=\"56\" height=\"56\" alt=\"Anti-transpiration\" style=\"object-fit:contain;\">\n    <span style=\"font-size:12px;color:#3d3d3d;text-align:center;font-family:sans-serif;line-height:1.4;\">Anti-transpiration</span>\n  </div>\n\n  <div style=\"display:flex;flex-direction:column;align-items:center;gap:12px;width:90px;\">\n    <img src=\"{{ 'Icône_Invisible_en_français.png' | asset_url }}\" width=\"56\" height=\"56\" alt=\"Invisible\" style=\"object-fit:contain;\">\n    <span style=\"font-size:12px;color:#3d3d3d;text-align:center;font-family:sans-serif;line-height:1.4;\">Invisible</span>\n  </div>\n\n  <div style=\"display:flex;flex-direction:column;align-items:center;gap:12px;width:90px;\">\n    <img src=\"{{ 'Icône_Gym_Friendly_en_français.png' | asset_url }}\" width=\"56\" height=\"56\" alt=\"Gym friendly\" style=\"object-fit:contain;\">\n    <span style=\"font-size:12px;color:#3d3d3d;text-align:center;font-family:sans-serif;line-height:1.4;\">Gym friendly</span>\n  </div>\n\n  <div style=\"display:flex;flex-direction:column;align-items:center;gap:12px;width:90px;\">\n    <img src=\"{{ 'Icône_Effet_Seconde_Peau_corrigée.png' | asset_url }}\" width=\"56\" height=\"56\" alt=\"Effet seconde peau\" style=\"object-fit:contain;\">\n    <span style=\"font-size:12px;color:#3d3d3d;text-align:center;font-family:sans-serif;line-height:1.4;\">Effet seconde peau</span>\n  </div>\n\n</div>",
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
         "background": "",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
       }
     }
   },
   "order": [
     "main",
     "related-products",
-    "custom_liquid_JPKCnM"
+    "multiple_images_with_text_Wxxt96"
   ]
 }
