@@ -50,10 +50,12 @@
         },
         "payment_terms": {
           "type": "payment_terms",
+          "disabled": true,
           "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "hide_sold_out_variants": false,
             "stack_blocks": true,
@@ -64,6 +66,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {}
         },
         "buy_buttons": {
@@ -75,6 +78,12 @@
             "atc_button_text_color": "",
             "payment_button_background": "",
             "payment_button_text_color": ""
+          }
+        },
+        "liquid_fxbQDq": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p id=\"delivery-msg\" style=\"font-family:'Jost',sans-serif;font-size:13px;color:#1a0a08;display:flex;align-items:center;justify-content:center;gap:6px;margin:12px 0;\">\n  <svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#1a0a08\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"flex-shrink:0;\">\n    <path d=\"M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z\"/>\n    <polyline points=\"3.27 6.96 12 12.01 20.73 6.96\"/>\n    <line x1=\"12\" y1=\"22.08\" x2=\"12\" y2=\"12\"/>\n  </svg>\n  <span id=\"delivery-text\"></span>\n</p>\n\n<script>\n(function() {\n  const mois = ['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'];\n\n  function addJoursOuvres(date, jours) {\n    let d = new Date(date);\n    let count = 0;\n    while (count < jours) {\n      d.setDate(d.getDate() + 1);\n      const dow = d.getDay();\n      if (dow !== 0 && dow !== 6) count++;\n    }\n    return d;\n  }\n\n  const now = new Date();\n  const min = addJoursOuvres(now, 2);\n  const max = addJoursOuvres(now, 5);\n\n  const minStr = min.getDate() + ' ' + mois[min.getMonth()];\n  const maxStr = max.getDate() + ' ' + mois[max.getMonth()];\n\n  document.getElementById('delivery-text').innerHTML =\n    'Commandez maintenant et recevez le <strong>' + minStr + ' – ' + maxStr + '</strong>';\n})();\n</script>"
           }
         },
         "liquid_FLzBGz": {
@@ -95,6 +104,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "liquid_fxbQDq",
         "liquid_FLzBGz"
       ],
       "settings": {
