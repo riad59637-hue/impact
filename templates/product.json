@@ -28,8 +28,15 @@
           "type": "badges",
           "settings": {}
         },
+        "moon_bundles_upsell_cart_aov_app_block_xVrVrM": {
+          "type": "shopify://apps/moon-bundles-upsell-cart-aov/blocks/app-block/aaf4cd95-8b9b-4a14-b929-0f7fc8fced27",
+          "settings": {
+            "moonbundle_selected_product": "{{product}}"
+          }
+        },
         "liquid_RBVtJx": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<style>\n@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Jost:wght@400&display=swap');\n</style>\n\n<div style=\"display:flex;flex-direction:column;gap:10px;margin:20px 0;\">\n\n  <div style=\"background:#fff8f6;border:1px solid #e8b9ae;border-radius:14px;padding:14px 16px;display:flex;align-items:center;gap:14px;\">\n    <div style=\"width:44px;height:44px;min-width:44px;border-radius:50%;background:#f9cfc4;display:flex;align-items:center;justify-content:center;\">\n      <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#7a2e22\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/><line x1=\"3\" y1=\"3\" x2=\"21\" y2=\"21\"/></svg>\n    </div>\n    <div>\n      <p style=\"font-family:'Cormorant Garamond',serif;font-size:16px;font-weight:600;color:#1a0a08;margin:0 0 2px;\">Invisible</p>\n      <p style=\"font-family:'Jost',sans-serif;font-size:12px;color:#5c2d24;margin:0;line-height:1.5;\">Zéro trace sous tes leggings et robes les plus moulantes</p>\n    </div>\n  </div>\n\n  <div style=\"background:#fff8f6;border:1px solid #e8b9ae;border-radius:14px;padding:14px 16px;display:flex;align-items:center;gap:14px;\">\n    <div style=\"width:44px;height:44px;min-width:44px;border-radius:50%;background:#f9cfc4;display:flex;align-items:center;justify-content:center;\">\n      <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#7a2e22\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/><polyline points=\"9 12 11 14 15 10\"/></svg>\n    </div>\n    <div>\n      <p style=\"font-family:'Cormorant Garamond',serif;font-size:16px;font-weight:600;color:#1a0a08;margin:0 0 2px;\">Zéro camel toe</p>\n      <p style=\"font-family:'Jost',sans-serif;font-size:12px;color:#5c2d24;margin:0;line-height:1.5;\">Pad triple épaisseur pour une silhouette lisse et naturelle</p>\n    </div>\n  </div>\n\n  <div style=\"background:#fff8f6;border:1px solid #e8b9ae;border-radius:14px;padding:14px 16px;display:flex;align-items:center;gap:14px;\">\n    <div style=\"width:44px;height:44px;min-width:44px;border-radius:50%;background:#f9cfc4;display:flex;align-items:center;justify-content:center;\">\n      <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#7a2e22\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z\"/></svg>\n    </div>\n    <div>\n      <p style=\"font-family:'Cormorant Garamond',serif;font-size:16px;font-weight:600;color:#1a0a08;margin:0 0 2px;\">Seamless</p>\n      <p style=\"font-family:'Jost',sans-serif;font-size:12px;color:#5c2d24;margin:0;line-height:1.5;\">Découpe laser, effet seconde peau toute la journée</p>\n    </div>\n  </div>\n\n</div>"
           }
@@ -80,6 +87,7 @@
         "liquid_E6r3mU",
         "title",
         "badges",
+        "moon_bundles_upsell_cart_aov_app_block_xVrVrM",
         "liquid_RBVtJx",
         "price",
         "payment_terms",
