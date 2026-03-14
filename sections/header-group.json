@@ -17,13 +17,21 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "Announce something here",
+            "text": "Livraison offerte",
+            "url": ""
+          }
+        },
+        "message_WmtTmL": {
+          "type": "message",
+          "settings": {
+            "text": "Offre 2 achetés + 1 offert",
             "url": ""
           }
         }
       },
       "block_order": [
-        "message"
+        "message",
+        "message_WmtTmL"
       ],
       "settings": {
         "enable_sticky": false,
