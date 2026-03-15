@@ -34,6 +34,12 @@
             "moonbundle_selected_product": "{{product}}"
           }
         },
+        "liquid_WnWVGa": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"margin-top:8px;\">\n\n<a href=\"#\" onclick=\"openSizeGuide(); return false;\" style=\"\nfont-family:Barlow, sans-serif;\nfont-size:14px;\ncolor:#b58466;\ntext-decoration:underline;\ncursor:pointer;\n\">\nGuide de tailles\n</a>\n\n</div>\n\n<div id=\"sizeGuideModal\" style=\"\ndisplay:none;\nposition:fixed;\ntop:0;\nleft:0;\nwidth:100%;\nheight:100%;\nbackground:rgba(0,0,0,0.35);\nz-index:9999;\nalign-items:center;\njustify-content:center;\n\">\n\n<div style=\"\nbackground:white;\nborder-radius:14px;\npadding:24px;\nwidth:90%;\nmax-width:420px;\nfont-family:Barlow, sans-serif;\nbox-shadow:0 10px 30px rgba(0,0,0,0.15);\n\">\n\n<h3 style=\"\nmargin-bottom:16px;\nfont-size:20px;\ncolor:#c28b6f;\nfont-weight:600;\n\">\nGuide des tailles NUVY\n</h3>\n\n<table style=\"\nwidth:100%;\nborder-collapse:collapse;\nfont-size:14px;\n\">\n\n<tr style=\"background:#faf8f6;\">\n<th style=\"border:1px solid #e5e0db;padding:10px;text-align:left;\">Taille NUVY</th>\n<th style=\"border:1px solid #e5e0db;padding:10px;text-align:left;\">Taille FR</th>\n<th style=\"border:1px solid #e5e0db;padding:10px;text-align:left;\">Tour de bassin</th>\n</tr>\n\n<tr>\n<td style=\"border:1px solid #e5e0db;padding:10px;\">S</td>\n<td style=\"border:1px solid #e5e0db;padding:10px;\">36</td>\n<td style=\"border:1px solid #e5e0db;padding:10px;\">92 - 96 cm</td>\n</tr>\n\n<tr>\n<td style=\"border:1px solid #e5e0db;padding:10px;\">M</td>\n<td style=\"border:1px solid #e5e0db;padding:10px;\">38</td>\n<td style=\"border:1px solid #e5e0db;padding:10px;\">96 - 100 cm</td>\n</tr>\n\n<tr>\n<td style=\"border:1px solid #e5e0db;padding:10px;\">L</td>\n<td style=\"border:1px solid #e5e0db;padding:10px;\">40</td>\n<td style=\"border:1px solid #e5e0db;padding:10px;\">100 - 104 cm</td>\n</tr>\n\n<tr>\n<td style=\"border:1px solid #e5e0db;padding:10px;\">XL</td>\n<td style=\"border:1px solid #e5e0db;padding:10px;\">42</td>\n<td style=\"border:1px solid #e5e0db;padding:10px;\">104 - 108 cm</td>\n</tr>\n\n</table>\n\n<p style=\"\nmargin-top:14px;\nfont-size:13px;\ncolor:#666;\n\">\nSi vous êtes entre deux tailles, choisissez la plus grande pour un confort optimal.\n</p>\n\n<button onclick=\"closeSizeGuide()\" style=\"\nmargin-top:14px;\nbackground:#c28b6f;\ncolor:white;\nborder:none;\npadding:8px 16px;\nborder-radius:8px;\ncursor:pointer;\nfont-size:14px;\n\">\nFermer\n</button>\n\n</div>\n</div>\n\n<script>\nfunction openSizeGuide(){\ndocument.getElementById('sizeGuideModal').style.display='flex';\n}\n\nfunction closeSizeGuide(){\ndocument.getElementById('sizeGuideModal').style.display='none';\n}\n</script>"
+          }
+        },
         "liquid_RBVtJx": {
           "type": "liquid",
           "disabled": true,
@@ -104,6 +110,7 @@
         "title",
         "badges",
         "moon_bundles_upsell_cart_aov_app_block_xVrVrM",
+        "liquid_WnWVGa",
         "liquid_RBVtJx",
         "price",
         "payment_terms",
