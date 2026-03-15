@@ -145,6 +145,19 @@
         "text_color": ""
       }
     },
+    "custom_liquid_RGNNUd": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div style=\"width:100%;height:1px;background:#e6e2dd;margin:30px 0;\"></div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "before_after_image_TMAxVB": {
       "type": "before-after-image",
       "name": "Before/after image",
@@ -168,6 +181,19 @@
         "after_text_color": "#ffffff",
         "drag_cursor_background": "#ffffff",
         "drag_cursor_color": "#000000"
+      }
+    },
+    "custom_liquid_jzMMB6": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div style=\"width:100%;height:1px;background:#e6e2dd;margin:30px 0;\"></div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "multiple_images_with_text_76tXmi": {
@@ -205,7 +231,9 @@
   "order": [
     "main",
     "custom_liquid_nfBeBi",
+    "custom_liquid_RGNNUd",
     "before_after_image_TMAxVB",
+    "custom_liquid_jzMMB6",
     "multiple_images_with_text_76tXmi"
   ]
 }
