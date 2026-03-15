@@ -91,6 +91,12 @@
           "settings": {
             "liquid": "<div class=\"payment-icons-wrapper\">\n  <ul class=\"payment-icons\">\n    {% for type in shop.enabled_payment_types %}\n      <li class=\"payment-icon\">\n        {{ type | payment_type_svg_tag }}\n      </li>\n    {% endfor %}\n  </ul>\n</div>\n\n<style>\n.payment-icons-wrapper {\n  margin-top: 15px;\n}\n\n.payment-icons {\n  display: flex;\n  justify-content: center;   /* centre horizontalement */\n  align-items: center;       /* centre verticalement */\n  flex-wrap: wrap;\n  gap: 10px;\n  padding: 0;\n  margin: 0;\n  list-style: none;\n}\n\n.payment-icon {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background: #f5f5f7;\n  padding: 6px 12px;\n  border-radius: 6px;\n  height: 38px;\n}\n\n.payment-icon svg {\n  height: 22px;\n  width: auto;\n}\n</style>"
           }
+        },
+        "liquid_ct9fcP": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"np-accordion\">\n\n<style>\n\n.np-accordion{\nfont-family:'Barlow',sans-serif;\nmargin-top:20px;\n}\n\n.np-item{\nborder-bottom:1px solid #e9e4df;\npadding:16px 0;\ncursor:pointer;\n}\n\n.np-title{\ndisplay:flex;\nalign-items:center;\njustify-content:space-between;\nfont-size:15px;\nfont-weight:500;\n}\n\n.np-left{\ndisplay:flex;\nalign-items:center;\ngap:12px;\n}\n\n.np-icon{\nwidth:20px;\nheight:20px;\nstroke:#3a2e2a;\n}\n\n.np-content{\ndisplay:none;\npadding-top:12px;\nfont-size:14px;\nline-height:1.6;\ncolor:#6a6764;\n}\n\n.np-arrow{\nwidth:18px;\nheight:18px;\ntransition:transform .25s ease;\n}\n\n.np-item.active .np-arrow{\ntransform:rotate(180deg);\n}\n\n</style>\n\n\n<!-- LIVRAISON -->\n<div class=\"np-item\" onclick=\"toggleNP(this)\">\n\n<div class=\"np-title\">\n\n<div class=\"np-left\">\n\n<svg class=\"np-icon\" fill=\"none\" stroke-width=\"2\" viewBox=\"0 0 24 24\">\n<path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M3 7h13v10H3z\"/>\n<path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M16 10h3l2 3v4h-5z\"/>\n<circle cx=\"7\" cy=\"18\" r=\"1.5\"/>\n<circle cx=\"18\" cy=\"18\" r=\"1.5\"/>\n</svg>\n\n<span>Livraison & retours</span>\n\n</div>\n\n<svg class=\"np-arrow\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#3a2e2a\" stroke-width=\"2\">\n<polyline points=\"6 9 12 15 18 9\"/>\n</svg>\n\n</div>\n\n<div class=\"np-content\">\n\nLa livraison est <strong>offerte et rapide dans toute la France</strong>.<br><br>\nVous disposez de <strong>14 jours après réception</strong> pour effectuer un retour si le produit ne vous convient pas.\n\n</div>\n</div>\n\n\n\n<!-- NUDEPARIS -->\n<div class=\"np-item\" onclick=\"toggleNP(this)\">\n\n<div class=\"np-title\">\n\n<div class=\"np-left\">\n\n<svg class=\"np-icon\" fill=\"none\" stroke-width=\"2\" viewBox=\"0 0 24 24\">\n<path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 19c4-6 8-6 12 0\"/>\n<path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 10c4-6 8-6 12 0\"/>\n</svg>\n\n<span>Le tanga invisible NudeParis</span>\n\n</div>\n\n<svg class=\"np-arrow\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#3a2e2a\" stroke-width=\"2\">\n<polyline points=\"6 9 12 15 18 9\"/>\n</svg>\n\n</div>\n\n<div class=\"np-content\">\n\nDécouvrez le tanga invisible <strong>NudeParis</strong>, conçu pour prévenir l’effet camel toe sous les leggings, robes et tenues moulantes.<br><br>\n\nGrâce à son pad innovant et sa conception sans couture, il offre un effet seconde peau et un confort optimal toute la journée.<br><br>\n\nParfait pour le sport comme pour le quotidien.<br><br>\n\n<strong>Composition :</strong> 76% nylon / 24% spandex\n\n</div>\n</div>\n\n\n\n<!-- PAIEMENT -->\n<div class=\"np-item\" onclick=\"toggleNP(this)\">\n\n<div class=\"np-title\">\n\n<div class=\"np-left\">\n\n<svg class=\"np-icon\" fill=\"none\" stroke-width=\"2\" viewBox=\"0 0 24 24\">\n<rect x=\"3\" y=\"7\" width=\"18\" height=\"11\" rx=\"2\"/>\n<path d=\"M3 10h18\"/>\n</svg>\n\n<span>Paiement sécurisé</span>\n\n</div>\n\n<svg class=\"np-arrow\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#3a2e2a\" stroke-width=\"2\">\n<polyline points=\"6 9 12 15 18 9\"/>\n</svg>\n\n</div>\n\n<div class=\"np-content\">\n\nCommandez en toute confiance.<br><br>\nPaiements sécurisés via <strong>Visa, Mastercard, Apple Pay, PayPal et Klarna</strong>.\n\n</div>\n</div>\n\n\n<script>\n\nfunction toggleNP(el){\n\nlet content = el.querySelector(\".np-content\");\n\nif(el.classList.contains(\"active\")){\nel.classList.remove(\"active\");\ncontent.style.display=\"none\";\n}\nelse{\nel.classList.add(\"active\");\ncontent.style.display=\"block\";\n}\n\n}\n\n</script>\n\n</div>"
+          }
         }
       },
       "block_order": [
@@ -105,7 +111,8 @@
         "quantity_selector",
         "buy_buttons",
         "liquid_fxbQDq",
-        "liquid_FLzBGz"
+        "liquid_FLzBGz",
+        "liquid_ct9fcP"
       ],
       "settings": {
         "full_width": true,
@@ -125,56 +132,6 @@
         "input_text_color": ""
       }
     },
-    "accordion_content_GW9Hga": {
-      "type": "accordion-content",
-      "blocks": {
-        "item_TUHWeV": {
-          "type": "item",
-          "settings": {
-            "title": "Question 1",
-            "content": "<p>Write content to help your customers to better understand your products or policies.</p>"
-          }
-        },
-        "item_WMMwhw": {
-          "type": "item",
-          "settings": {
-            "title": "Question 2",
-            "content": "<p>Write content to help your customers to better understand your products or policies.</p>"
-          }
-        },
-        "item_GhFApk": {
-          "type": "item",
-          "settings": {
-            "title": "Question 3",
-            "content": "<p>Write content to help your customers to better understand your products or policies.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_TUHWeV",
-        "item_WMMwhw",
-        "item_GhFApk"
-      ],
-      "name": "Accordion content",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
-      }
-    },
     "custom_liquid_nfBeBi": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -191,7 +148,6 @@
   },
   "order": [
     "main",
-    "accordion_content_GW9Hga",
     "custom_liquid_nfBeBi"
   ]
 }
