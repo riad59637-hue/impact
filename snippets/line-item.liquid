@@ -69,13 +69,9 @@ Supported variables
 
     <div class="text-sm text-subdued sm:hidden">
       {%- if line_item.url_to_remove -%}
-        <line-item-quantity class="h-stack justify-center gap-3">
-          <input class="quantity-input" type="text" is="quantity-input" inputmode="numeric" {% if line_max_quantity %}max="{{ line_max_quantity }}"{% endif %} data-line-key="{{ line_item.key }}" aria-label="{{ 'cart.order.change_quantity' | t | escape }}" value="{{ line_item.quantity }}">
-
-          <span class="text-xs">
-            <a href="{{ line_item.url_to_remove }}" class="link">{{ 'cart.order.remove' | t }}</a>
-          </span>
-        </line-item-quantity>
+        <span class="text-xs">
+  <a href="{{ line_item.url_to_remove }}" class="link">Supprimer</a>
+</span>
       {%- else -%}
         {{- 'customer.order.quantity' | t }}: {{ line_item.quantity -}}
       {%- endif -%}
