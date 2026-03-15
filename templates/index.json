@@ -223,7 +223,9 @@
       "type": "featured-collection",
       "settings": {
         "collection": "",
-        "products": [],
+        "products": [
+          "tanga-invisible-anti-cameltoe"
+        ],
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": false,
