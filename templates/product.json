@@ -258,19 +258,17 @@
         "button_text_color": ""
       }
     },
-    "video_aN7Mcy": {
-      "type": "video",
-      "name": "Video",
+    "custom_liquid_WaP8ij": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
       "settings": {
         "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "auto",
-        "video": "shopify://files/videos/44cc97fd42714102be0a40aacdc6f2f8.mov",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"np-video-wrapper\">\n\n<style>\n\n.np-video-wrapper{\nposition:relative;\nmax-width:100%;\nmargin:30px auto;\nfont-family:'Barlow',sans-serif;\n}\n\n.np-video-row{\ndisplay:flex;\ngap:20px;\noverflow:hidden;\nscroll-behavior:smooth;\njustify-content:center;\n}\n\n.np-video-row video{\nwidth:100%;\nmax-width:320px;\nborder-radius:14px;\nobject-fit:cover;\n}\n\n.np-chevron{\nposition:absolute;\ntop:50%;\ntransform:translateY(-50%);\nbackground:white;\nwidth:44px;\nheight:44px;\nborder-radius:50%;\ndisplay:flex;\nalign-items:center;\njustify-content:center;\ncursor:pointer;\nbox-shadow:0 4px 12px rgba(0,0,0,0.12);\nz-index:2;\n}\n\n.np-left{\nleft:-5px;\n}\n\n.np-right{\nright:-5px;\n}\n\n.np-chevron svg{\nwidth:22px;\nheight:22px;\nstroke:#3A2E2A;\n}\n\n@media(max-width:768px){\n\n.np-video-row{\noverflow-x:auto;\nscrollbar-width:none;\n}\n\n.np-video-row::-webkit-scrollbar{\ndisplay:none;\n}\n\n.np-video-row video{\nmin-width:80%;\n}\n\n}\n\n</style>\n\n\n<div class=\"np-chevron np-left\" onclick=\"scrollVideos(-340)\">\n<svg fill=\"none\" stroke-width=\"2\" viewBox=\"0 0 24 24\">\n<polyline points=\"15 18 9 12 15 6\"/>\n</svg>\n</div>\n\n<div class=\"np-chevron np-right\" onclick=\"scrollVideos(340)\">\n<svg fill=\"none\" stroke-width=\"2\" viewBox=\"0 0 24 24\">\n<polyline points=\"9 18 15 12 9 6\"/>\n</svg>\n</div>\n\n\n<div class=\"np-video-row\" id=\"video-carousel\">\n\n<video autoplay muted loop playsinline>\n<source src=\"https://cdn.shopify.com/videos/c/o/v/1f762fd6d66647a2b9ed1078ed38ccf0.mov\">\n</video>\n\n<video autoplay muted loop playsinline>\n<source src=\"https://cdn.shopify.com/videos/c/o/v/c8a3a32c77a445b8b1e4e605836d4970.mov\">\n</video>\n\n<video autoplay muted loop playsinline>\n<source src=\"https://cdn.shopify.com/videos/c/o/v/73a9264044fc4973bc39faae0f971255.mp4\">\n</video>\n\n</div>\n\n</div>\n\n\n<script>\n\nfunction scrollVideos(value){\ndocument.getElementById('video-carousel').scrollBy({\nleft:value,\nbehavior:'smooth'\n});\n}\n\n</script>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     }
   },
@@ -282,6 +280,6 @@
     "custom_liquid_jzMMB6",
     "multiple_images_with_text_76tXmi",
     "multiple_images_with_text_zKDgK8",
-    "video_aN7Mcy"
+    "custom_liquid_WaP8ij"
   ]
 }
