@@ -125,89 +125,73 @@
         "input_text_color": ""
       }
     },
-    "related-products": {
-      "type": "related-products",
+    "accordion_content_GW9Hga": {
+      "type": "accordion-content",
+      "blocks": {
+        "item_TUHWeV": {
+          "type": "item",
+          "settings": {
+            "title": "Question 1",
+            "content": "<p>Write content to help your customers to better understand your products or policies.</p>"
+          }
+        },
+        "item_WMMwhw": {
+          "type": "item",
+          "settings": {
+            "title": "Question 2",
+            "content": "<p>Write content to help your customers to better understand your products or policies.</p>"
+          }
+        },
+        "item_GhFApk": {
+          "type": "item",
+          "settings": {
+            "title": "Question 3",
+            "content": "<p>Write content to help your customers to better understand your products or policies.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_TUHWeV",
+        "item_WMMwhw",
+        "item_GhFApk"
+      ],
+      "name": "Accordion content",
       "settings": {
-        "recommendations_count": 6,
-        "products": [],
         "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 3,
         "subheading": "",
-        "title": "You may also like",
+        "title": "",
         "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
         "background": "",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
       }
     },
-    "multiple_images_with_text_Wxxt96": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "item_6tUJ4K": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Icone_Anti-Cameltoe_en_francais.png",
-            "image_rotation_degrees": 0,
-            "subheading": "",
-            "title": "",
-            "content": "",
-            "button_url": "",
-            "button_text": ""
-          }
-        },
-        "item_4QFyWE": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Icone_Anti-Transpiration_en_francais.png",
-            "image_rotation_degrees": -2,
-            "subheading": "",
-            "title": "",
-            "content": "",
-            "button_url": "",
-            "button_text": ""
-          }
-        },
-        "item_HmBjY6": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Icone_Invisible_en_francais.png",
-            "image_rotation_degrees": 1.5,
-            "subheading": "",
-            "title": "",
-            "content": "",
-            "button_url": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_6tUJ4K",
-        "item_4QFyWE",
-        "item_HmBjY6"
-      ],
-      "name": "Multiple images with text",
+    "custom_liquid_nfBeBi": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
       "settings": {
         "full_width": true,
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div style=\"margin:20px 0; position:relative;\">\n\n<h3 style=\"text-align:center;font-size:20px;font-weight:600;margin-bottom:12px;\">\nAvis clientes\n</h3>\n\n<div style=\"position:relative;\">\n\n<button onclick=\"scrollReviews(-260)\" \nstyle=\"position:absolute;left:-6px;top:50%;transform:translateY(-50%);background:white;border:none;cursor:pointer;padding:4px;border-radius:50%;box-shadow:0 1px 4px rgba(0,0,0,0.1);z-index:2;\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"#3A2E2A\" stroke-width=\"2\" viewBox=\"0 0 24 24\">\n<polyline points=\"15 18 9 12 15 6\"/>\n</svg>\n</button>\n\n<button onclick=\"scrollReviews(260)\" \nstyle=\"position:absolute;right:-6px;top:50%;transform:translateY(-50%);background:white;border:none;cursor:pointer;padding:4px;border-radius:50%;box-shadow:0 1px 4px rgba(0,0,0,0.1);z-index:2;\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"#3A2E2A\" stroke-width=\"2\" viewBox=\"0 0 24 24\">\n<polyline points=\"9 18 15 12 9 6\"/>\n</svg>\n</button>\n\n<div id=\"review-carousel\" style=\"display:flex;gap:10px;overflow:hidden;scroll-behavior:smooth;\">\n\n<div style=\"min-width:240px;background:#f7f4f2;padding:10px;border-radius:10px;text-align:center;\">\n<img src=\"https://cdn.shopify.com/s/files/1/0998/8915/2346/files/C4B0D1F6-5248-401B-9556-C4A3E7013AF2_1_105_c.webp?v=1773533241\" style=\"width:100%;border-radius:8px;margin-bottom:6px;\">\n<div style=\"color:#f5a623;font-size:13px;\">★★★★★</div>\n<p style=\"font-size:13px;margin:4px 0;\">Très confortable et invisible sous mes leggings.</p>\n<strong style=\"font-size:13px;\">Sarah</strong>\n</div>\n\n<div style=\"min-width:240px;background:#f7f4f2;padding:10px;border-radius:10px;text-align:center;\">\n<img src=\"https://cdn.shopify.com/s/files/1/0998/8915/2346/files/138357551-1728240840.877.webp?v=1773533241\" style=\"width:100%;border-radius:8px;margin-bottom:6px;\">\n<div style=\"color:#f5a623;font-size:13px;\">★★★★★</div>\n<p style=\"font-size:13px;margin:4px 0;\">Parfait pour le sport, aucun camel toe.</p>\n<strong style=\"font-size:13px;\">Camille</strong>\n</div>\n\n<div style=\"min-width:240px;background:#f7f4f2;padding:10px;border-radius:10px;text-align:center;\">\n<img src=\"https://cdn.shopify.com/s/files/1/0998/8915/2346/files/DC75FB62-9965-4B54-A954-BC7320819D07.webp?v=1773533241\" style=\"width:100%;border-radius:8px;margin-bottom:6px;\">\n<div style=\"color:#f5a623;font-size:13px;\">★★★★★</div>\n<p style=\"font-size:13px;margin:4px 0;\">Super qualité et très confortable.</p>\n<strong style=\"font-size:13px;\">Julie</strong>\n</div>\n\n<div style=\"min-width:240px;background:#f7f4f2;padding:10px;border-radius:10px;text-align:center;\">\n<img src=\"https://cdn.shopify.com/s/files/1/0998/8915/2346/files/138357548-1729289283.5655.webp?v=1773533241\" style=\"width:100%;border-radius:8px;margin-bottom:6px;\">\n<div style=\"color:#f5a623;font-size:13px;\">★★★★★</div>\n<p style=\"font-size:13px;margin:4px 0;\">Je le porte au sport et il reste invisible.</p>\n<strong style=\"font-size:13px;\">Laura</strong>\n</div>\n\n</div>\n\n</div>\n\n</div>\n\n<script>\nfunction scrollReviews(value){\ndocument.getElementById('review-carousel').scrollBy({\nleft:value,\nbehavior:'smooth'\n});\n}\n</script>",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
+        "text_color": ""
       }
     }
   },
   "order": [
     "main",
-    "related-products",
-    "multiple_images_with_text_Wxxt96"
+    "accordion_content_GW9Hga",
+    "custom_liquid_nfBeBi"
   ]
 }
