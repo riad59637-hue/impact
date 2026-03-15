@@ -178,38 +178,40 @@
         "accordion_text_color": ""
       }
     },
+    "custom_liquid_7GF4fr": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"np-reviews\">\n\n<style>\n\n.np-reviews{\nfont-family:'Barlow',sans-serif;\ntext-align:center;\npadding:40px 0;\nposition:relative;\n}\n\n.np-rating-block{\ndisplay:flex;\nflex-direction:column;\nalign-items:center;\njustify-content:center;\ngap:6px;\nmargin-bottom:25px;\n}\n\n.np-stars{\ncolor:#F5A623;\nfont-size:20px;\nletter-spacing:2px;\nline-height:1;\n}\n\n.np-rating{\nfont-size:28px;\nfont-weight:600;\ncolor:#3A2E2A;\nline-height:1;\n}\n\n.np-count{\nfont-size:14px;\ncolor:#777;\nline-height:1;\n}\n\n.np-carousel-wrapper{\nposition:relative;\n}\n\n.np-carousel{\ndisplay:flex;\ngap:16px;\noverflow:hidden;\nscroll-behavior:smooth;\n}\n\n.np-card{\nmin-width:210px;\nbackground:#f7f4f2;\nborder-radius:12px;\npadding:12px;\ntext-align:center;\n}\n\n.np-card img{\nwidth:100%;\nborder-radius:10px;\nmargin-bottom:8px;\n}\n\n.np-text{\nfont-size:13px;\ncolor:#3A2E2A;\nmargin:6px 0;\n}\n\n.np-name{\nfont-weight:600;\nfont-size:13px;\n}\n\n.np-chevron{\nposition:absolute;\ntop:50%;\ntransform:translateY(-50%);\nbackground:white;\nwidth:40px;\nheight:40px;\nborder-radius:50%;\ndisplay:flex;\nalign-items:center;\njustify-content:center;\ncursor:pointer;\nbox-shadow:0 4px 10px rgba(0,0,0,0.12);\nz-index:5;\n}\n\n.np-left{left:-10px;}\n.np-right{right:-10px;}\n\n.np-chevron svg{\nwidth:22px;\nheight:22px;\nstroke:#3A2E2A;\n}\n\n</style>\n\n\n<div class=\"np-rating-block\">\n\n<div class=\"np-stars\">★★★★★</div>\n\n<div class=\"np-rating\">4,8</div>\n\n<div class=\"np-count\">— 362 avis vérifiés</div>\n\n</div>\n\n\n<div class=\"np-carousel-wrapper\">\n\n<div class=\"np-chevron np-left\" onclick=\"scrollNP(-250)\">\n<svg fill=\"none\" stroke-width=\"2\" viewBox=\"0 0 24 24\">\n<polyline points=\"15 18 9 12 15 6\"/>\n</svg>\n</div>\n\n<div class=\"np-chevron np-right\" onclick=\"scrollNP(250)\">\n<svg fill=\"none\" stroke-width=\"2\" viewBox=\"0 0 24 24\">\n<polyline points=\"9 18 15 12 9 6\"/>\n</svg>\n</div>\n\n\n<div class=\"np-carousel\" id=\"np-carousel\">\n\n\n<div class=\"np-card\">\n<img src=\"https://cdn.shopify.com/s/files/1/0998/8915/2346/files/C4B0D1F6-5248-401B-9556-C4A3E7013AF2_1_105_c.webp?v=1773533241\">\n<div class=\"np-stars\">★★★★★</div>\n<div class=\"np-text\">Très confortable et invisible sous mes leggings.</div>\n<div class=\"np-name\">Sarah</div>\n</div>\n\n\n<div class=\"np-card\">\n<img src=\"https://cdn.shopify.com/s/files/1/0998/8915/2346/files/138357551-1728240840.877.webp?v=1773533241\">\n<div class=\"np-stars\">★★★★★</div>\n<div class=\"np-text\">Parfait pour le sport, aucun camel toe.</div>\n<div class=\"np-name\">Camille</div>\n</div>\n\n\n<div class=\"np-card\">\n<img src=\"https://cdn.shopify.com/s/files/1/0998/8915/2346/files/DC75FB62-9965-4B54-A954-BC7320819D07.webp?v=1773533241\">\n<div class=\"np-stars\">★★★★★</div>\n<div class=\"np-text\">Super qualité et très discret.</div>\n<div class=\"np-name\">Julie</div>\n</div>\n\n\n<div class=\"np-card\">\n<img src=\"https://cdn.shopify.com/s/files/1/0998/8915/2346/files/138357548-1729289283.5655.webp?v=1773533241\">\n<div class=\"np-stars\">★★★★★</div>\n<div class=\"np-text\">Je le porte au sport et il reste invisible.</div>\n<div class=\"np-name\">Laura</div>\n</div>\n\n\n<div class=\"np-card\">\n<div class=\"np-stars\">★★★★★</div>\n<div class=\"np-text\">Enfin un tanga vraiment invisible sous mes leggings clairs.</div>\n<div class=\"np-name\">Emma</div>\n</div>\n\n\n<div class=\"np-card\">\n<div class=\"np-stars\">★★★★★</div>\n<div class=\"np-text\">Très agréable à porter toute la journée.</div>\n<div class=\"np-name\">Léa</div>\n</div>\n\n\n<div class=\"np-card\">\n<div class=\"np-stars\">★★★★★</div>\n<div class=\"np-text\">Aucune démarcation sous mes vêtements, je recommande.</div>\n<div class=\"np-name\">Manon</div>\n</div>\n\n\n</div>\n</div>\n\n\n</div>\n\n\n<script>\n\nfunction scrollNP(value){\ndocument.getElementById('np-carousel').scrollBy({\nleft:value,\nbehavior:'smooth'\n});\n}\n\n</script>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
-        "newsletter": {
-          "type": "newsletter",
+        "links_6XYnQi": {
+          "type": "links",
           "settings": {
-            "image_width": 150,
-            "heading_size": "h3",
-            "title": "Sign up for new stories and personal offers",
-            "content": ""
+            "menu": "main-menu",
+            "show_menu_title": true
           }
         },
         "links": {
           "type": "links",
           "settings": {
-            "menu": "footer",
+            "menu": "mentions-l-gales",
             "show_menu_title": true
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "title": "About",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
-            "enable_follow_on_shop": true
           }
         }
       },
       "block_order": [
-        "newsletter",
-        "links",
-        "text"
+        "links_6XYnQi",
+        "links"
       ],
       "settings": {
         "show_social_media": true,
@@ -224,6 +226,7 @@
   "order": [
     "text-with-icons",
     "faq_DNNNmn",
+    "custom_liquid_7GF4fr",
     "footer"
   ]
 }
