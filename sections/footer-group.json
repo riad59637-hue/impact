@@ -88,6 +88,13 @@
     "faq_DNNNmn": {
       "type": "faq",
       "blocks": {
+        "item_WrdiDT": {
+          "type": "item",
+          "settings": {
+            "title": "Le tanga NudeParis évite-t-il vraiment le camel toe ?",
+            "content": "<p>Oui.</p><p>Le pad discret intégré a été spécialement conçu pour <strong>prévenir l’effet camel toe</strong>, même avec des leggings très moulants.</p><p>Il lisse naturellement la zone intime sans ajouter d’épaisseur visible.</p><p>Résultat :<br/><br/>✔ silhouette nette<br/><br/>✔ confort total<br/><br/>✔ confiance en toutes circonstances.</p>"
+          }
+        },
         "item_FDbMmC": {
           "type": "item",
           "settings": {
@@ -108,12 +115,45 @@
             "title": "Est-il vraiment invisible sous les leggings ou vêtements moulants ?",
             "content": "<p>Oui.</p><p>Grâce à sa <strong>découpe laser sans couture</strong>, le tanga NudeParis reste invisible sous les leggings, robes moulantes ou pantalons près du corps.</p><p>Le <strong>pad anti-cameltoe intégré</strong> lisse naturellement la zone intime sans créer de volume, pour une silhouette harmonieuse et discrète.</p>"
           }
+        },
+        "item_HPzdYd": {
+          "type": "item",
+          "settings": {
+            "title": "Comment laver et entretenir mon tanga NudeParis ?",
+            "content": "<p>• Lavage en machine à <strong>30°C (cycle délicat)</strong><br/><br/>• Utiliser un <strong>filet de lavage</strong> si possible<br/><br/>• <strong>Éviter le sèche-linge</strong><br/><br/>• Ne pas utiliser d’adoucissant</p><p>Le séchage à l’air libre permet de conserver l’élasticité et la douceur du tissu plus longtemps.</p>"
+          }
+        },
+        "item_jJriqH": {
+          "type": "item",
+          "settings": {
+            "title": "Quels sont les délais de livraison ?",
+            "content": "<p>Votre commande est <strong>préparée sous 24h</strong> puis expédiée en livraison suivie.</p><p>Les délais de livraison sont généralement de :</p><p><strong>3 à 5 jours ouvrés en France.</strong></p><p>Un numéro de suivi vous est envoyé dès l’expédition.</p>"
+          }
+        },
+        "item_UrbVHR": {
+          "type": "item",
+          "settings": {
+            "title": "Et si la taille ne me convient pas ?",
+            "content": "<p>Vous disposez de <strong>14 jours après réception</strong> pour effectuer un échange ou un retour.</p><p>Pour des raisons d’hygiène, les articles doivent être :</p><p>• non portés<br/><br/>• non lavés<br/><br/>• avec les étiquettes intactes<br/><br/>• dans leur emballage d’origine</p><p>Nous vous recommandons de consulter notre <strong>guide des tailles</strong> avant commande.</p>"
+          }
+        },
+        "item_iNDiqN": {
+          "type": "item",
+          "settings": {
+            "title": "Pourquoi utiliser un mélange nylon / spandex ?",
+            "content": "<p>Le nylon apporte :</p><p>• douceur<br/><br/>• résistance<br/><br/>• tenue des couleurs</p><p>Le spandex (élasthanne) permet :</p><p>• une <strong>élasticité optimale</strong><br/><br/>• un <strong>ajustement parfait à la morphologie</strong><br/><br/>• un confort durable sans compression.</p><p>Ce mélange garantit également une <strong>bonne respirabilité</strong>, idéale pour un usage quotidien ou sportif.</p>"
+          }
         }
       },
       "block_order": [
+        "item_WrdiDT",
         "item_FDbMmC",
         "item_bytLHm",
-        "item_wxgeKU"
+        "item_wxgeKU",
+        "item_HPzdYd",
+        "item_jJriqH",
+        "item_UrbVHR",
+        "item_iNDiqN"
       ],
       "name": "FAQ",
       "settings": {
