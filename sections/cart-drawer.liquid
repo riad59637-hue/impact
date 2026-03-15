@@ -176,6 +176,41 @@ Livraison offerte en France
           </cart-note-dialog>
         {%- endif -%}
       </div>
+      <div style="
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:6px;
+margin:16px 0;
+font-family:Barlow, sans-serif;
+font-size:14px;
+color:#3A2E2A;
+">
+
+<div style="display:flex;align-items:center;gap:6px">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3A2E2A" stroke-width="1.8">
+<rect x="3" y="11" width="18" height="11" rx="2"/>
+<path d="M7 11V7a5 5 0 0110 0v4"/>
+</svg>
+
+Paiement 100% sécurisé
+
+</div>
+
+<div style="display:flex;align-items:center;gap:6px">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3A2E2A" stroke-width="1.8">
+<path d="M3 7h18"/>
+<path d="M3 12h18"/>
+<path d="M3 17h18"/>
+</svg>
+
+Retours sous 14 jours
+
+</div>
+
+</div>
 
       <form action="{{ routes.cart_url }}" method="POST" class="buy-buttons {% if section.settings.show_checkout_button %}buy-buttons--compact{% endif %}">
         {%- assign checkout_label = 'cart.general.checkout' | t -%}
