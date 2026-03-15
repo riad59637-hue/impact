@@ -226,6 +226,52 @@
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "multiple_images_with_text_zKDgK8": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_HncUBy": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Capture_d_ecran_2026-03-15_020818.png",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Retrouve confiance en toi",
+            "content": "<p><strong>Confort, Sérénité, Confiance</strong><br/><br/>Parce qu’un sous-vêtement ne devrait jamais être une source d’inconfort, nous avons conçu une pièce qui s’adapte à votre corps, et non l’inverse.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_HncUBy"
+      ],
+      "name": "Multiple images with text",
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "video_aN7Mcy": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/44cc97fd42714102be0a40aacdc6f2f8.mov",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
     }
   },
   "order": [
@@ -234,6 +280,8 @@
     "custom_liquid_RGNNUd",
     "before_after_image_TMAxVB",
     "custom_liquid_jzMMB6",
-    "multiple_images_with_text_76tXmi"
+    "multiple_images_with_text_76tXmi",
+    "multiple_images_with_text_zKDgK8",
+    "video_aN7Mcy"
   ]
 }
