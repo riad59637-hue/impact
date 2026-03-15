@@ -85,6 +85,59 @@
         "text_color": ""
       }
     },
+    "faq_DNNNmn": {
+      "type": "faq",
+      "blocks": {
+        "item_FDbMmC": {
+          "type": "item",
+          "settings": {
+            "title": "Quelle taille choisir ?",
+            "content": "<p>Notre tanga NudeParis est conçu pour s’adapter naturellement aux différentes morphologies grâce à son tissu extensible et sa coupe ergonomique.</p><p>Nous vous recommandons de consulter notre <strong>guide des tailles détaillé</strong> avant de commander.</p><p>Si vous êtes entre deux tailles, privilégiez <strong>la taille supérieure pour un confort optimal</strong>.</p>"
+          }
+        },
+        "item_bytLHm": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "item_wxgeKU": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_FDbMmC",
+        "item_bytLHm",
+        "item_wxgeKU"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ NudeParis",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -130,6 +183,7 @@
   },
   "order": [
     "text-with-icons",
+    "faq_DNNNmn",
     "footer"
   ]
 }
