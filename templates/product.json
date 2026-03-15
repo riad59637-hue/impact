@@ -145,53 +145,67 @@
         "text_color": ""
       }
     },
-    "image_with_text_overlay_63ATKJ": {
-      "type": "image-with-text-overlay",
+    "before_after_image_TMAxVB": {
+      "type": "before-after-image",
+      "name": "Before/after image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Un avant / après NudeParis",
+        "content": "<p>Grâce à son pad innovant, le tanga NudeParis lisse la silhouette et reste invisible sous vos tenues.</p>",
+        "before_image": "shopify://shop_images/Capture_d_ecran_2026-03-15_015329.png",
+        "after_image": "shopify://shop_images/Image_redimensionnee.png",
+        "expand_image": false,
+        "text_position": "center",
+        "before_after_text_position": "bottom",
+        "before_text": "Avant",
+        "after_text": "Après",
+        "drag_initial_position": 50,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
+      }
+    },
+    "multiple_images_with_text_76tXmi": {
+      "type": "multiple-images-with-text",
       "blocks": {
-        "subheading_JQ8RGB": {
-          "type": "subheading",
+        "item_zK8gx9": {
+          "type": "item",
           "settings": {
-            "text": ""
-          }
-        },
-        "heading_MmPERB": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_RMrNnc": {
-          "type": "richtext",
-          "settings": {
-            "content": ""
+            "image": "shopify://shop_images/culotte-nuvy-anti-cameltoe-details.webp",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Conçu pour vous",
+            "content": "<p>Chez NudeParis, chaque détail de conception a été pensé pour répondre aux exigences des femmes actives.</p><p>Grâce à son design innovant, le tanga épouse parfaitement la silhouette et reste bien en place tout au long de la journée, que ce soit pendant l’entraînement ou dans la vie quotidienne, sans rouler, sans glisser, et sans marquer la peau.</p>",
+            "button_url": "",
+            "button_text": ""
           }
         }
       },
       "block_order": [
-        "subheading_JQ8RGB",
-        "heading_MmPERB",
-        "richtext_RMrNnc"
+        "item_zK8gx9"
       ],
-      "name": "Image with text overlay",
+      "name": "Multiple images with text",
       "settings": {
         "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/3f9334f3-77d8-453f-8f93-5eeab1637843_5d73a448-6e62-44bc-8186-710ae38ce6a1.png",
-        "mobile_image": "shopify://shop_images/Capture_d_ecran_2026-03-15_014945.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
       }
     }
   },
   "order": [
     "main",
     "custom_liquid_nfBeBi",
-    "image_with_text_overlay_63ATKJ"
+    "before_after_image_TMAxVB",
+    "multiple_images_with_text_76tXmi"
   ]
 }
