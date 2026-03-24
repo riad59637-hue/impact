@@ -24,7 +24,7 @@
         "message_WmtTmL": {
           "type": "message",
           "settings": {
-            "text": "Cadeaux offerts",
+            "text": "2 achetés + 2 offerts",
             "url": ""
           }
         }
@@ -38,7 +38,7 @@
         "text_size": "text-xs",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
-        "background": "#000000",
+        "background": "#ba8c71",
         "background_gradient": "",
         "text_color": "#ffffff"
       }
@@ -48,7 +48,7 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
-        "logo": "shopify://shop_images/Memoria.png",
+        "logo": "shopify://shop_images/Logo_NudeParis_Sans_Dorure.png",
         "logo_max_width": 120,
         "logo_mobile_max_width": 110,
         "menu": "main-menu",
