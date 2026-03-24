@@ -144,6 +144,19 @@
         "text_color": ""
       }
     },
+    "custom_liquid_FFderz": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div style=\"text-align:center;margin-top:18px;\">\n\n<a href=\"https://lumenss.fr/products/tanga-invisible-anti-cameltoe\"\nstyle=\"\ndisplay:inline-flex;\nalign-items:center;\njustify-content:center;\ngap:10px;\nbackground:#B78768;\ncolor:#fff;\nfont-family:Barlow,sans-serif;\nfont-weight:600;\nfont-size:16px;\npadding:16px 34px;\nborder-radius:40px;\ntext-decoration:none;\ntransition:0.25s ease;\n\">\n\nDécouvrir le tanga NudeParis\n\n<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"white\" stroke-width=\"2\" viewBox=\"0 0 24 24\">\n<polyline points=\"9 18 15 12 9 6\"/>\n</svg>\n\n</a>\n\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "custom_liquid_Dtx7bb": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -191,7 +204,7 @@
           "settings": {
             "hide_sold_out_variants": true,
             "stack_blocks": true,
-            "selector_mode": "block",
+            "selector_mode": "dropdown",
             "color_mode": "variant",
             "size_chart_page": ""
           }
@@ -238,19 +251,6 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
-      }
-    },
-    "custom_liquid_FFderz": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div style=\"text-align:center;margin-top:18px;\">\n\n<a href=\"https://lumenss.fr/products/tanga-invisible-anti-cameltoe\"\nstyle=\"\ndisplay:inline-flex;\nalign-items:center;\njustify-content:center;\ngap:10px;\nbackground:#B78768;\ncolor:#fff;\nfont-family:Barlow,sans-serif;\nfont-weight:600;\nfont-size:16px;\npadding:16px 34px;\nborder-radius:40px;\ntext-decoration:none;\ntransition:0.25s ease;\n\">\n\nDécouvrir le tanga NudeParis\n\n<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"white\" stroke-width=\"2\" viewBox=\"0 0 24 24\">\n<polyline points=\"9 18 15 12 9 6\"/>\n</svg>\n\n</a>\n\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     }
   },
